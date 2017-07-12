@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+header { height: 166px; background: url(../images/banner_small.jpg) no-repeat right 0px;}
+header a.logo {
+	width: 100px;
+	height: 100px;
+	top: 16px;
+	right: 15px;
+	/*background-image: url(../images/logo_small.png);*/
+}
+
+
+article { padding: 20px 20px 10px 20px;}
+
+nav {position: static;
+	padding: 10px 0px;
+	background-color: #515673;
+}
+
+nav a {
+	color: #a6abc5;
+	display: block;
+	margin: 15px; 
+	padding: 9px;
+	border: 1px solid #a6abc5;
+	background: url(../images/mobile_link_arrow.png) no-repeat right center;
+	border-radius: 12px;
+}
+
+nav a:hover {color: #fff; background-color: rgba(255,255,255,.15);}
+
+.promo_container, .hobbies_container { padding: 0px;}
+
+.promo_container .promo, .hobbies_container .hobbies {
+	width: auto;
+	float: none;
+	padding: 10px 0px 0px 0px;
+	background-position: 20px 13px;
+	border-top: 1px solid #ccc;
+}
+
+.promo_container .promo .content, .hobbies_container .hobbies .content { padding: 0px 20px 5px 100px;}
+
+footer { border-top: 1px solid #a6abc5; }
+
+body { background-image: none;}

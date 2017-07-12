@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Layout Medium Screens */
+header { height: 266px; background: url(../images/banner_medium.jpg) no-repeat 90% 0px;}
+
+header a.logo {
+	width: 115px;
+	height: 100px;
+	top: 20px;
+	left: 20px;
+	background-image: url(../images/logo.png);
+}
+
+nav { top: 266px;  }
+nav { margin-right: 20px;}
+
+.promo_container, .hobbies_container { padding: 0 20px 15px 20px; }
+
+
+.promo_container .promo , .hobbies_container .hobbies { background-position: 0px 0px;}
+
+.promo_container .promo .content , .hobbies_container .hobbies .content { padding: 80px 30px 0px 0px; }
+
+body {background-image: none;}
+
+

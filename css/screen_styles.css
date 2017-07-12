@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* Global Content Formatting and Styles */
+
+body {
+	color: #575c7a;
+	line-height: 1.5em;
+	font-family: Arial;
+	font-size: 14px;
+	background:  #515673 url(../images/page-gradient.png) repeat-x 0px 0px;
+}
+
+.page {
+	max-width: 1000px;
+	margin: 0px auto;
+	position: relative;
+	background-color: #fff;
+}
+
+h1 { font-size: 2em; font-weight: bold; color: #a644b0; margin: 0 0 .5em 0;}
+h2 { font-size: 1.7em; margin: 0 0 1em 0; }
+h3 { font-size: 1.5em; margin: 0 0 1em 0; }
+
+p { margin: 0 0 .75em 0; }
+a { color: #de9000;}
+a:hover { color: #009eff;  }
+
+footer { font-size: .85em; color: #9ba0bd; background-color: #515673; padding: 10px 10px 10px 0;}
+
+div.promo a, div.hobbies a {
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: .5em 0 0 0;
+	padding: 0px 12px 0px 0px;
+	background: url(../images/cta_arrow.png) no-repeat right 0px;
+}
+
+div.promo a:hover, div.hobbies a:hover {
+	background-position: right -50px;
+}
+
+.promo h3, .hobbies h3 {font-size: 1.1em; margin: 0; }
+.promo p, .hobbies p  { line-height: 1.2em; font-size: .9em; margin-bottom: .5em;}
+
+.promo, .hobbies { background-repeat: no-repeat; background-size: 75px 75px;}
+/*.hobbies { background-color: #f106ba;}*/
+.promo.sec { background-image: url(../images/promo_sec.png); /*background-size: 75px 75px;*/}
+.promo.pri { background-image: url(../images/promo_pri.jpg); /*background-size: 75px 75px;*/}
+.promo.tet { background-image: url(../images/promo_tet.jpg); /*background-size: 75px 75px;*/}
+
+
+.hobbies.football { background-image: url(../images/hobbies_football.png);}
+.hobbies.reading { background-image: url(../images/hobbies_reading.jpg);}
+.hobbies.mathematics { background-image: url(../images/hobbies_math.jpg);}
+
+nav a { 
+	color: #f5a06e;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: .9em;
+  }
+
+  nav a:hover {
+  	color: #fff;
+  }
+
+.clear-fix{
+	clear: both; line-height: 1px;
+}

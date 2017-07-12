@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+body { margin: 0; padding: 0;}
+
+header a.logo {
+	display: block;
+	position: absolute;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+
+nav {
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: #000;
+}
+/* Layout Large Screens (default for older browsers) */
+
+header {
+	height: 400px;
+	background: url(../images/banner_large.jpg) no-repeat right 0px;
+}
+
+header a.logo {
+	width: 150px;
+	height: 100px;
+	top: 28px;
+	left: 30px;
+	background-image: url(../images/logo.png);
+}
+
+article { padding: 60px 20px 10px 20px; }
+
+.promo_container, .hobbies_container { padding: 0px 0px 25px 20px;}
+.promo_container .promo, .hobbies_container .hobbies {
+	width: 33%;
+	float: left;
+	background-position: 0px 3px;
+}
+
+.promo_container .promo .content, .hobbies_container .hobbies .content { padding: 0px 30px 0px 80px;  }
+.hobbies_container::after { content: ''; display: block; clear: both;} 
+
+nav {top: 400px;}
+nav a {margin: 12px 0 10px 20px;}
+
+@media screen and (max-width: 1025px){
+	footer { padding-left: 20px;  }
+}
